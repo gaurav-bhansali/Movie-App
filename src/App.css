@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
 
 :root {
-  --primary: #032541;
-  --secondary: #21d07a;
+  --primary: #000;
+  --secondary: #e86a71;
   --white: #fff;
 }
 
@@ -10,6 +10,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   padding: 0;
   margin: 0;
+  background-color: var(--primary);
 }
 
 .container {
@@ -58,7 +59,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #1aa762;
+  background-color: #a59293;
   opacity: 1;
   cursor: pointer;
 }
@@ -75,6 +76,7 @@ input:focus {
 /* Header Styles */
 header {
   background-color: var(--primary);
+  border-bottom: white solid 1px;
 }
 
 header .inner-content {
@@ -126,11 +128,11 @@ header .nav-links li:last-child {
 
 .add-content .input-wrapper input {
   width: 100%;
-  background-color: var(--primary);
-  padding: 10px;
-  border-radius: 5px;
+  background-color: var(--white);
+  padding: 15px;
+  border-radius: 1000px;
   border: none;
-  color: var(--white);
+  color: var(--primary);
   font-size: 1.25rem;
 }
 
@@ -168,7 +170,7 @@ header .nav-links li:last-child {
 
 .result-card .info .title {
   font-size: 1.25rem;
-  color: var(--primary);
+  color: var(--white);
   font-weight: 600;
   margin: 0;
 }
@@ -176,7 +178,7 @@ header .nav-links li:last-child {
 .result-card .info .release-date {
   font-size: 1.25rem;
   font-weight: 300;
-  color: var(--primary);
+  color: var(--white);
   margin: 0;
 }
 
@@ -203,11 +205,11 @@ header .nav-links li:last-child {
   font-size: 1.125rem;
   font-weight: 600;
   border-radius: 999px;
-  color: var(--primary);
+  color: var(--white);
 }
 
 .movie-page .heading {
-  color: var(--primary);
+  color: var(--white);
   margin: 0;
 }
 
